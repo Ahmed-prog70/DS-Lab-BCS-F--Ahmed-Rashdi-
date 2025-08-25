@@ -55,7 +55,7 @@ public:
 int main() {
     
     cout << "Creating original exam object..." << endl;
-    Exam exam1("John Doe", "2024-03-15", 85.5);
+    Exam exam1("Ahmed", "2025-03-15", 85.1);
     exam1.displayExamDetails();
 
     cout << "Creating shallow copy using copy constructor..." << endl;
@@ -63,8 +63,8 @@ int main() {
     exam2.displayExamDetails();
 
     cout << "Modifying the copy..." << endl;
-    exam2.setStudentName("Jane Smith");
-    exam2.setScore(92.0);
+    exam2.setStudentName("Fadil");
+    exam2.setScore(90.0);
 
     cout << "After modifying the copy:" << endl;
     cout << "Original object:" << endl;
@@ -75,4 +75,5 @@ int main() {
     // both objects have the same memory addresses for studentName. This means they share the same dynamically allocated memory.
 
     return 0;
+
 }
