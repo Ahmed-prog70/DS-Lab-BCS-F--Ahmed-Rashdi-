@@ -2,7 +2,6 @@
 using namespace std;
 
 #define MAX 50
-
 class Stack {
     int arr[MAX];
     int top;
